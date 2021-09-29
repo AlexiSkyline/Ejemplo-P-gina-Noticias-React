@@ -1,8 +1,11 @@
 import React from 'react';
+import { Header } from './Components/Header';
 
 function App() {
   return (
-    <h1>Noticias</h1>
+    <>
+        <Header titulo="buscador de noticias"/>
+    </>
   );
 }
 
